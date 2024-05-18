@@ -1,0 +1,50 @@
+// $theme-colors: (
+//   "primary": #7209B7,
+//   "success": green,
+//   "info": #fdc500,
+//   "danger": red,
+// );
+
+ @import "~bootstrap/scss/bootstrap";
+
+body {
+  font-family: 
+  'Ubuntu',
+  sans-serif;
+}
+
+.sign-card {
+  height:  80vh;
+}
+
+.content-spinner {
+  background-color: white;
+  height: 80vh;
+}
+
+.main-page-container {
+ // background: url('') no-repeat center center fixed;
+  background-size: cover;
+  height: 80vh;
+}
+
+.status-btn {
+  padding: auto 6px;
+  border-radius: 0px;
+}
+
+.status-todo {
+  font-weight: bold;
+}
+
+.status-in-progress {
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: orange;
+}
+
+
+.status-done {
+  text-decoration: line-through;
+}
+
